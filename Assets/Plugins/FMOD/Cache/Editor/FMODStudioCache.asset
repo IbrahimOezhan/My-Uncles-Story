@@ -1,0 +1,7408 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9132277893551351803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SkipIntro
+  m_EditorClassIdentifier: 
+  Name: SkipIntro
+  StudioPath: parameter:/SkipIntro
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2632014119
+    data2: 112031974
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8973226228507829509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS_Walk/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &-8921032156527212618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Door_Knock/KnockCount
+  m_EditorClassIdentifier: 
+  Name: KnockCount
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 4129061853
+    data2: 3124982138
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8827009043822893567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: parameter:/isChasing
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8823374622733796588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_CompassTurn/CompassTimer
+  m_EditorClassIdentifier: 
+  Name: CompassTimer
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 318713933
+    data2: 2619746212
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8751555933605919801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS_Walk/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8639892408127264989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Click_On
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Click_On
+  Guid:
+    Data1: -545638749
+    Data2: 1082001404
+    Data3: -1778984829
+    Data4: 1725649024
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 418
+--- !u!114 &-8615688813863898046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/End_Player_Kill
+  m_EditorClassIdentifier: 
+  Path: event:/Events/End_Player_Kill
+  Guid:
+    Data1: -1293513659
+    Data2: 1181911468
+    Data3: -427457890
+    Data4: -9513179
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9200
+--- !u!114 &-8475985833545126686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn7/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8340781378443443502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/End_Player_Duck
+  m_EditorClassIdentifier: 
+  Path: event:/Events/End_Player_Duck
+  Guid:
+    Data1: -1357330039
+    Data2: 1132654266
+    Data3: -174990678
+    Data4: -68049731
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -68281761272163664}
+  - {fileID: 8790008859389059949}
+  - {fileID: 6254699576423369371}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4274
+--- !u!114 &-8332290515003508547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_DoorKnock_SideChain
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_DoorKnock_SideChain
+  Guid:
+    Data1: 651185413
+    Data2: 1111277189
+    Data3: -1152695119
+    Data4: -934374791
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-8281373184743934014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TRee_Foliage/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8224388031620755708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manRestartDrone/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8177784893423294624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manMovement/manFS_Walk
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manMovement/manFS_Walk
+  Guid:
+    Data1: 672952517
+    Data2: 1116131226
+    Data3: 1248485031
+    Data4: -2129357287
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1618064114096976834}
+  - {fileID: 5493414628801292227}
+  - {fileID: -8973226228507829509}
+  - {fileID: 4319198589282548335}
+  - {fileID: -4318360579234976891}
+  - {fileID: -8751555933605919801}
+  - {fileID: -7475810256375038543}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 650
+--- !u!114 &-8174197552140130367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind_Trees/LoopModulator
+  m_EditorClassIdentifier: 
+  Name: LoopModulator
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1396381206
+    data2: 3868467137
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-8027055103761630529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_Compass_State
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_Compass_State
+  Guid:
+    Data1: -1415570334
+    Data2: 1156801557
+    Data3: 272329391
+    Data4: -110025386
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-7898475316999835571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manJumpscare_Tremolo_2
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manJumpscare_Tremolo_2
+  Guid:
+    Data1: 211590300
+    Data2: 1246184709
+    Data3: 2083160980
+    Data4: 197186046
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-7787281376581229371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manBreatheOut/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-7747433524071974699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_Compass_Break/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7719698224014188337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerDeathStinger
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerDeathStinger
+  Guid:
+    Data1: -602116864
+    Data2: 1100253783
+    Data3: 1402242488
+    Data4: 1105787886
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3150
+--- !u!114 &-7656791690425092601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manDuringchase/manTalk
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manDuringchase/manTalk
+  Guid:
+    Data1: -1703186273
+    Data2: 1238401189
+    Data3: 1250470535
+    Data4: -1879539061
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7622460638749016902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_LetterClose
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_LetterClose
+  Guid:
+    Data1: -1148630098
+    Data2: 1314450500
+    Data3: 747687058
+    Data4: -1314067820
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &-7504769267611198001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn12
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn12
+  Guid:
+    Data1: -346855654
+    Data2: 1208598636
+    Data3: -553865327
+    Data4: -596078492
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8961337305104697468}
+  MinDistance: 1
+  MaxDistance: 210
+  Length: 703
+--- !u!114 &-7475810256375038543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS_Walk/ManNinjaMode
+  m_EditorClassIdentifier: 
+  Name: ManNinjaMode
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1333258045
+    data2: 4197851586
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7272256064029683134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manPreChase/manPreChase
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manPreChase/manPreChase
+  Guid:
+    Data1: 1055490735
+    Data2: 1282556171
+    Data3: -649522291
+    Data4: 212716557
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5591927646366545782}
+  MinDistance: 5
+  MaxDistance: 30
+  Length: 2072
+--- !u!114 &-7152173003358254008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/menu/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &-7120052594003219141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind_Distance
+  m_EditorClassIdentifier: 
+  Name: Wind_Distance
+  StudioPath: parameter:/Wind_Distance
+  Min: 0
+  Max: 35
+  Default: 20
+  ID:
+    data1: 2502678788
+    data2: 75836602
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7119489472508436648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Pause_Riser
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Pause_Riser
+  Guid:
+    Data1: -678415358
+    Data2: 1256618209
+    Data3: 1501711779
+    Data4: -1075750206
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3433
+--- !u!114 &-7080806250423230446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manStepsTree/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7047489686311125935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_PauseGame
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_PauseGame
+  Guid:
+    Data1: -1952922265
+    Data2: 1313704722
+    Data3: 1098688145
+    Data4: -1645357195
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-6951482855938152634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Credits
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Credits
+  Guid:
+    Data1: 35647011
+    Data2: 1237070658
+    Data3: 1772221860
+    Data4: 580363755
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5674361339480047619}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50000
+--- !u!114 &-6921911896523147577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn17/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6578568525627823888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/In_Outro
+  m_EditorClassIdentifier: 
+  Path: event:/Music/In_Outro
+  Guid:
+    Data1: 859103118
+    Data2: 1084032215
+    Data3: -226584696
+    Data4: -1698568500
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7158464856358857428}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 106000
+--- !u!114 &-6544043707024974884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manMovement/manFS
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manMovement/manFS
+  Guid:
+    Data1: -1611244110
+    Data2: 1170582029
+    Data3: 1139390104
+    Data4: 712855956
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4757038785028143624}
+  - {fileID: 2043650167737190108}
+  - {fileID: 850765072185884158}
+  MinDistance: 1
+  MaxDistance: 40
+  Length: 800
+--- !u!114 &-6514440173747945827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn11/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6378018243859202681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/End_Player_Death_Out
+  m_EditorClassIdentifier: 
+  Path: event:/Events/End_Player_Death_Out
+  Guid:
+    Data1: 2014113071
+    Data2: 1280131198
+    Data3: -301155927
+    Data4: -1850471860
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5833
+--- !u!114 &-6315703028329701917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn2/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-6297211180056239053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ManualDistMan
+  m_EditorClassIdentifier: 
+  Name: ManualDistMan
+  StudioPath: parameter:/ManualDistMan
+  Min: 1
+  Max: 30
+  Default: 15
+  ID:
+    data1: 760613910
+    data2: 2179579966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6233079863763822449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/End_Player_Death_Heart
+  m_EditorClassIdentifier: 
+  Path: event:/Events/End_Player_Death_Heart
+  Guid:
+    Data1: -784012283
+    Data2: 1085581389
+    Data3: -1518353521
+    Data4: -2135185
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12000
+--- !u!114 &-6144750604011828408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Hover_Off
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Hover_Off
+  Guid:
+    Data1: 1459879399
+    Data2: 1116686112
+    Data3: 1429863333
+    Data4: 1095907232
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5595632750259581935}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240
+--- !u!114 &-6121607408653577384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/Door_KnockScare
+  m_EditorClassIdentifier: 
+  Path: event:/Events/Door_KnockScare
+  Guid:
+    Data1: -357776497
+    Data2: 1219852047
+    Data3: 114261127
+    Data4: -1022230749
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3.2
+  MaxDistance: 13
+  Length: 1000
+--- !u!114 &-6086876913420426309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manDuringchase/manDuringChase
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manDuringchase/manDuringChase
+  Guid:
+    Data1: 1948033097
+    Data2: 1155263810
+    Data3: 1852505255
+    Data4: 397318207
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8794734672307289370}
+  - {fileID: 6440413197906833607}
+  MinDistance: 5
+  MaxDistance: 40
+  Length: 3250
+--- !u!114 &-5998178654607010369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/Intro
+  m_EditorClassIdentifier: 
+  Path: event:/Events/Intro
+  Guid:
+    Data1: -1267656034
+    Data2: 1292765209
+    Data3: -1014951022
+    Data4: 386959697
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5067944633190977659}
+  - {fileID: -5826806166481301262}
+  - {fileID: -5572666821649207023}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26015
+--- !u!114 &-5966392491790473587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manDuringchase/manLaugh
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manDuringchase/manLaugh
+  Guid:
+    Data1: -1114385832
+    Data2: 1319429540
+    Data3: -411417935
+    Data4: -853982088
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3250
+--- !u!114 &-5944488504983361598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_Compass_Fix/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5944033674629985976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_Compass_Click/CompassTimer
+  m_EditorClassIdentifier: 
+  Name: CompassTimer
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 318713933
+    data2: 2619746212
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5935094514037349117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerLogPU
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerLogPU
+  Guid:
+    Data1: -1498610835
+    Data2: 1158164917
+    Data3: 1136142237
+    Data4: 190662346
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 1058
+--- !u!114 &-5867645342291740299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StartBackgroundNightAmb
+  m_EditorClassIdentifier: 
+  Name: StartBackgroundNightAmb
+  StudioPath: parameter:/StartBackgroundNightAmb
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 440977224
+    data2: 14395268
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5826806166481301262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Intro/SkipIntro
+  m_EditorClassIdentifier: 
+  Name: SkipIntro
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2632014119
+    data2: 112031974
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5792876269794626173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/House_Build/LoopModulator
+  m_EditorClassIdentifier: 
+  Name: LoopModulator
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1396381206
+    data2: 3868467137
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5739349323542036200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/In_Game/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5674361339480047619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Credits/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &-5670953695368645626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/End_Player_Death_Glass
+  m_EditorClassIdentifier: 
+  Path: event:/Events/End_Player_Death_Glass
+  Guid:
+    Data1: -1567060211
+    Data2: 1310569662
+    Data3: -75718978
+    Data4: -1532469077
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-5644568190811066551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Single_Loops/Cricket_Loop_Main
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Single_Loops/Cricket_Loop_Main
+  Guid:
+    Data1: -71964892
+    Data2: 1221784364
+    Data3: -197878087
+    Data4: -1829049994
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5226827750133894128}
+  - {fileID: 6523928246121409777}
+  - {fileID: 6025362584931912199}
+  MinDistance: 6
+  MaxDistance: 42
+  Length: 21000
+--- !u!114 &-5635388938656675329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/TRee_Foliage
+  m_EditorClassIdentifier: 
+  Path: event:/Events/TRee_Foliage
+  Guid:
+    Data1: 806384373
+    Data2: 1311566252
+    Data3: -2141066067
+    Data4: -608236052
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8281373184743934014}
+  MinDistance: 5
+  MaxDistance: 20
+  Length: 1980
+--- !u!114 &-5602408488547087314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn5
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn5
+  Guid:
+    Data1: 976617154
+    Data2: 1210879732
+    Data3: -1048743022
+    Data4: -1421810033
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8334888703986071203}
+  MinDistance: 1
+  MaxDistance: 140
+  Length: 703
+--- !u!114 &-5595632750259581935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_Hover_Off/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &-5572666821649207023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Intro/Game_Trip
+  m_EditorClassIdentifier: 
+  Name: Game_Trip
+  StudioPath: 
+  Min: 0
+  Max: 17
+  Default: 0
+  ID:
+    data1: 2810151380
+    data2: 2189076965
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5456535200532460461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SS_OutroScene/DistanceToOutroWindows
+  m_EditorClassIdentifier: 
+  Name: DistanceToOutroWindows
+  StudioPath: 
+  Min: 0
+  Max: 6
+  Default: 3
+  ID:
+    data1: 2709789765
+    data2: 1696964877
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5434099845444488201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_AmbienceWind/StartBackgroundNightAmb
+  m_EditorClassIdentifier: 
+  Name: StartBackgroundNightAmb
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 440977224
+    data2: 14395268
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5318926949791289177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn3/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5119903498697791314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn8/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-5112735305029774883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_Ambience/StartBackgroundNightAmb
+  m_EditorClassIdentifier: 
+  Name: StartBackgroundNightAmb
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 440977224
+    data2: 14395268
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5072331732149992529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Car_Click
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Car_Click
+  Guid:
+    Data1: -178870570
+    Data2: 1177970209
+    Data3: -455270268
+    Data4: 1834193521
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 678
+--- !u!114 &-4960189083576409022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manMovement/manDragRestart_Step2
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manMovement/manDragRestart_Step2
+  Guid:
+    Data1: -1784464383
+    Data2: 1102154205
+    Data3: 148560538
+    Data4: -1950839788
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1480
+--- !u!114 &-4791833474184692675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SS_LookingAtMan/ManualDirManToPlayer
+  m_EditorClassIdentifier: 
+  Name: ManualDirManToPlayer
+  StudioPath: 
+  Min: -180
+  Max: 180
+  Default: 0
+  ID:
+    data1: 1100029682
+    data2: 940198049
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4776610169985429209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/manTreeSteps_OS
+  m_EditorClassIdentifier: 
+  Path: event:/Events/manTreeSteps_OS
+  Guid:
+    Data1: 656935086
+    Data2: 1113086430
+    Data3: 1019626669
+    Data4: -1818083700
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4803864905765056918}
+  - {fileID: -3224266165375150724}
+  MinDistance: 0
+  MaxDistance: 30
+  Length: 2000
+--- !u!114 &-4752381148811236979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manBlockIdle/ManualDirManToPlayer
+  m_EditorClassIdentifier: 
+  Name: ManualDirManToPlayer
+  StudioPath: 
+  Min: -180
+  Max: 180
+  Default: 0
+  ID:
+    data1: 1100029682
+    data2: 940198049
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4723795674010819225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TripModulator
+  m_EditorClassIdentifier: 
+  Name: TripModulator
+  StudioPath: parameter:/TripModulator
+  Min: 0
+  Max: 170
+  Default: 40
+  ID:
+    data1: 367521527
+    data2: 1436836166
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4716307719686079985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Door_Knock
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Door_Knock
+  Guid:
+    Data1: 2002626845
+    Data2: 1097925724
+    Data3: 119332271
+    Data4: -1692253056
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8921032156527212618}
+  MinDistance: 0.5
+  MaxDistance: 13
+  Length: 1300
+--- !u!114 &-4643426673061085688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/In_Game/TripModulator
+  m_EditorClassIdentifier: 
+  Name: TripModulator
+  StudioPath: 
+  Min: 0
+  Max: 170
+  Default: 40
+  ID:
+    data1: 367521527
+    data2: 1436836166
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4464976420761888628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manMovement/manDragRestart_Step1
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manMovement/manDragRestart_Step1
+  Guid:
+    Data1: 873245739
+    Data2: 1158448499
+    Data3: -382595955
+    Data4: 1640230597
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1200
+--- !u!114 &-4436860181411169065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerFS
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerFS
+  Guid:
+    Data1: 1381540144
+    Data2: 1237649566
+    Data3: -1795745382
+    Data4: 994456677
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2851295742896237531}
+  - {fileID: 8781965494681797624}
+  - {fileID: 3678364256758713377}
+  - {fileID: -2699418375840790654}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 738
+--- !u!114 &-4318360579234976891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS_Walk/FakeDistMan
+  m_EditorClassIdentifier: 
+  Name: FakeDistMan
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 1294236443
+    data2: 1279682979
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4253371869190220697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_CompassTurn
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_CompassTurn
+  Guid:
+    Data1: -39944020
+    Data2: 1282986532
+    Data3: 125825701
+    Data4: 1417278161
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7271466971942644355}
+  - {fileID: -8823374622733796588}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1291
+--- !u!114 &-4232959641539018986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cicada_Loop_Main/IsLoopPlaying
+  m_EditorClassIdentifier: 
+  Name: IsLoopPlaying
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3141963145
+    data2: 1268664328
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4174425586552581073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/In_Game/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3974426074299927793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerDoorToOutro
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerDoorToOutro
+  Guid:
+    Data1: -326078927
+    Data2: 1170265335
+    Data3: -472116070
+    Data4: -650534231
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 1731
+--- !u!114 &-3759763848247717659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_OutroScene
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_OutroScene
+  Guid:
+    Data1: 1134941723
+    Data2: 1240569897
+    Data3: -159971192
+    Data4: 72482562
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5456535200532460461}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-3736708123987504326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manTreeSteps_Cmd/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3649864700036338559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manBreatheOut/ManualDistMan
+  m_EditorClassIdentifier: 
+  Name: ManualDistMan
+  StudioPath: 
+  Min: 1
+  Max: 30
+  Default: 15
+  ID:
+    data1: 760613910
+    data2: 2179579966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3617397409627917293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_Ambience/LoopModulator
+  m_EditorClassIdentifier: 
+  Name: LoopModulator
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1396381206
+    data2: 3868467137
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3533889641349055649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn6
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn6
+  Guid:
+    Data1: -1164146190
+    Data2: 1276284064
+    Data3: -1214732394
+    Data4: 864992800
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 789605480245726923}
+  MinDistance: 1
+  MaxDistance: 140
+  Length: 703
+--- !u!114 &-3468724162703326803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manDeathRestart_Laugh 3
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manDeathRestart_Laugh 3
+  Guid:
+    Data1: 1604975953
+    Data2: 1275567425
+    Data3: 602698373
+    Data4: 94390606
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2850
+--- !u!114 &-3420695658709660019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cicada_Loop_Main/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3224266165375150724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manTreeSteps_OS/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3206767944852324246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Compass_Fix
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Compass_Fix
+  Guid:
+    Data1: 785295366
+    Data2: 1144153835
+    Data3: -482344039
+    Data4: -876977328
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5944488504983361598}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1825
+--- !u!114 &-3150348302505067225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Single_Loops/Tree_Sticks
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Single_Loops/Tree_Sticks
+  Guid:
+    Data1: 1633712537
+    Data2: 1210602436
+    Data3: 1780928136
+    Data4: -1579292697
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 4
+  MaxDistance: 45
+  Length: 22200
+--- !u!114 &-3098670468030940466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MDistToCar
+  m_EditorClassIdentifier: 
+  Name: MDistToCar
+  StudioPath: parameter:/MDistToCar
+  Min: 15
+  Max: 70
+  Default: 70
+  ID:
+    data1: 2185528145
+    data2: 3421360102
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3053859426818079911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Single_Loops/Owl_Chirp
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Single_Loops/Owl_Chirp
+  Guid:
+    Data1: 714066068
+    Data2: 1083713038
+    Data3: -183277696
+    Data4: 278681200
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 25
+  Length: 22200
+--- !u!114 &-3020215605763532584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn
+  Guid:
+    Data1: 2006678603
+    Data2: 1150897103
+    Data3: 1657777854
+    Data4: 1014946053
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8751973816463595886}
+  MinDistance: 1
+  MaxDistance: 110
+  Length: 703
+--- !u!114 &-2992855284198227838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chase/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2980158651239134749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manJumpscare
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manJumpscare
+  Guid:
+    Data1: -366408758
+    Data2: 1123009094
+    Data3: -1891801455
+    Data4: 439024954
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2200
+--- !u!114 &-2891264841130986275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/TRX_Night_2
+  m_EditorClassIdentifier: 
+  Path: event:/Events/TRX_Night_2
+  Guid:
+    Data1: 2089034228
+    Data2: 1270912927
+    Data3: -246266963
+    Data4: 1339917694
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 468
+--- !u!114 &-2819696911554513710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn11
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn11
+  Guid:
+    Data1: -389769406
+    Data2: 1334833646
+    Data3: -230939739
+    Data4: -977900766
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6514440173747945827}
+  MinDistance: 1
+  MaxDistance: 210
+  Length: 703
+--- !u!114 &-2811705762919663258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_ObjectiveChange
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_ObjectiveChange
+  Guid:
+    Data1: -1964741987
+    Data2: 1226639234
+    Data3: 654758784
+    Data4: 155080801
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 313
+--- !u!114 &-2783539439916456914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_LetterOpen
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_LetterOpen
+  Guid:
+    Data1: 1712494101
+    Data2: 1124473736
+    Data3: -1399818609
+    Data4: -1098227379
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 725
+--- !u!114 &-2699418375840790654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerFS/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &-2620157907514506382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manMovement/manFS_Walk_Outside
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manMovement/manFS_Walk_Outside
+  Guid:
+    Data1: -1254513196
+    Data2: 1223738477
+    Data3: 594259100
+    Data4: 1925011919
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4724460643244803328}
+  MinDistance: 1
+  MaxDistance: 45
+  Length: 500
+--- !u!114 &-2551669485700852666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Single_Loops/Cicada_Loop_Main
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Single_Loops/Cicada_Loop_Main
+  Guid:
+    Data1: 239136304
+    Data2: 1074137327
+    Data3: 372251565
+    Data4: -529973355
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7788660103971913820}
+  - {fileID: -3420695658709660019}
+  - {fileID: -4232959641539018986}
+  MinDistance: 6
+  MaxDistance: 42
+  Length: 21000
+--- !u!114 &-2542947998450573774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/In_Game/Game_Trip
+  m_EditorClassIdentifier: 
+  Name: Game_Trip
+  StudioPath: 
+  Min: 0
+  Max: 17
+  Default: 0
+  ID:
+    data1: 2810151380
+    data2: 2189076965
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2519056481618902927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game_Trip
+  m_EditorClassIdentifier: 
+  Name: Game_Trip
+  StudioPath: parameter:/Game_Trip
+  Min: 0
+  Max: 17
+  Default: 0
+  ID:
+    data1: 2810151380
+    data2: 2189076965
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2478469970272943765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manDeathRestart_Scream
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manDeathRestart_Scream
+  Guid:
+    Data1: -892693048
+    Data2: 1329636763
+    Data3: -1847278921
+    Data4: -1889128999
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2416
+--- !u!114 &-2477099114014167480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Outro_Wind/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &-2449304555231804325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_PreNightAmbience
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_PreNightAmbience
+  Guid:
+    Data1: -523642511
+    Data2: 1274230031
+    Data3: 1071583879
+    Data4: 1346151430
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-2175582591889482881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_Ambience/Wind_Distance
+  m_EditorClassIdentifier: 
+  Name: Wind_Distance
+  StudioPath: 
+  Min: 0
+  Max: 35
+  Default: 20
+  ID:
+    data1: 2502678788
+    data2: 75836602
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1974976460248368396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_Wind_To_TreeWind
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_Wind_To_TreeWind
+  Guid:
+    Data1: -1699505174
+    Data2: 1144459670
+    Data3: 1667616659
+    Data4: -544697254
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-1972481210347357620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manBlockIdle/ManualDistMan
+  m_EditorClassIdentifier: 
+  Name: ManualDistMan
+  StudioPath: 
+  Min: 1
+  Max: 30
+  Default: 15
+  ID:
+    data1: 760613910
+    data2: 2179579966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1912506690684748570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_Compass_Click/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1672691791417116603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Dialogue_Letter
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Dialogue_Letter
+  Guid:
+    Data1: -795165215
+    Data2: 1302902613
+    Data3: 6299816
+    Data4: 1865445935
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100
+--- !u!114 &-1648589334025476871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Night_AmbienceWind
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Night_AmbienceWind
+  Guid:
+    Data1: -1579270769
+    Data2: 1097956590
+    Data3: -963204434
+    Data4: 41617586
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5434099845444488201}
+  - {fileID: 5423929273080482690}
+  - {fileID: 1431904078707883594}
+  - {fileID: 5999127393195682263}
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &-1618064114096976834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS_Walk/ManualDirManToPlayer
+  m_EditorClassIdentifier: 
+  Name: ManualDirManToPlayer
+  StudioPath: 
+  Min: -180
+  Max: 180
+  Default: 0
+  ID:
+    data1: 1100029682
+    data2: 940198049
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1537558186520421757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Hover
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Hover
+  Guid:
+    Data1: -696624574
+    Data2: 1211016365
+    Data3: -564317768
+    Data4: -1374325080
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4045721597384497384}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 240
+--- !u!114 &-1523412945066366099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Wind_Trees
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Wind_Trees
+  Guid:
+    Data1: -557374987
+    Data2: 1089790780
+    Data3: -2016628574
+    Data4: -576697577
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8174197552140130367}
+  MinDistance: 5
+  MaxDistance: 35
+  Length: 20000
+--- !u!114 &-1511101672785156497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn16
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn16
+  Guid:
+    Data1: -1907445343
+    Data2: 1179612696
+    Data3: 739738542
+    Data4: 1837316414
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -375264960865216095}
+  MinDistance: 1
+  MaxDistance: 270
+  Length: 703
+--- !u!114 &-1377040624098821599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/TRX_Night
+  m_EditorClassIdentifier: 
+  Path: event:/Events/TRX_Night
+  Guid:
+    Data1: 1479637604
+    Data2: 1186292819
+    Data3: 483021974
+    Data4: 24793743
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 550
+--- !u!114 &-1351012683432109078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_Ambience/TripModulator
+  m_EditorClassIdentifier: 
+  Name: TripModulator
+  StudioPath: 
+  Min: 0
+  Max: 170
+  Default: 40
+  ID:
+    data1: 367521527
+    data2: 1436836166
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1333576956837075360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Grasshopper_Loop/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1236382841709065919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMODBanks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638303249109653519
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-1163855992792825794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Single_Loops/Grasshopper_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Single_Loops/Grasshopper_Loop
+  Guid:
+    Data1: -2012272360
+    Data2: 1274752721
+    Data3: -546199645
+    Data4: -166432267
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2438306271126384534}
+  - {fileID: -1333576956837075360}
+  - {fileID: 3865757122679521672}
+  MinDistance: 6
+  MaxDistance: 42
+  Length: 21000
+--- !u!114 &-1127699920155698533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMODBanks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638303249109658518
+  FileSizes:
+  - Name: 
+    Value: 9006
+  Exists: 1
+--- !u!114 &-905798179838903032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Pause
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Pause
+  Guid:
+    Data1: 1395876060
+    Data2: 1299299319
+    Data3: -960947286
+    Data4: 200544754
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-814319588492630813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Outro_Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Outro_Ambience
+  Guid:
+    Data1: -568843117
+    Data2: 1143653357
+    Data3: 1212859327
+    Data4: 1290047660
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &-625808286499699659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manFoley/manStepsTree
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manFoley/manStepsTree
+  Guid:
+    Data1: -1723375480
+    Data2: 1083036751
+    Data3: 592536486
+    Data4: 1051002028
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8814248763694810035}
+  - {fileID: -7080806250423230446}
+  MinDistance: 1
+  MaxDistance: 40
+  Length: 1480
+--- !u!114 &-607380943499192123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ScareTrigger
+  m_EditorClassIdentifier: 
+  Name: ScareTrigger
+  StudioPath: parameter:/ScareTrigger
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2921681134
+    data2: 3340006532
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-579863751712609920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/End_Player_Death_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Events/End_Player_Death_Bed
+  Guid:
+    Data1: 270935550
+    Data2: 1107608452
+    Data3: 1144516225
+    Data4: 1622363361
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 955945382537518764}
+  - {fileID: 320788923700704668}
+  - {fileID: 5582956200718563738}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5600
+--- !u!114 &-539932177595399243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manJumpscare_Script
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manJumpscare_Script
+  Guid:
+    Data1: -155721751
+    Data2: 1327308150
+    Data3: -1066297177
+    Data4: 1082965306
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2020
+--- !u!114 &-375264960865216095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn16/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-348869497945354849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Outro_Stinger/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &-253105108906080198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/InsideCar
+  m_EditorClassIdentifier: 
+  Name: InsideCar
+  StudioPath: parameter:/insideCar
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1170830701
+    data2: 2712526610
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-176008035337638238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Terrain
+  m_EditorClassIdentifier: 
+  Name: Terrain
+  StudioPath: parameter:/Terrain
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 4038244893
+    data2: 2506544968
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Grass
+  - Dirt
+  - Wood
+  Exists: 1
+--- !u!114 &-68281761272163664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/End_Player_Duck/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-49299569730052589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/In_Game/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1127699920155698533}
+  - {fileID: -1236382841709065919}
+  EditorEvents:
+  - {fileID: -7719698224014188337}
+  - {fileID: -4960189083576409022}
+  - {fileID: 730642825691882167}
+  - {fileID: -7119489472508436648}
+  - {fileID: 8676281919876338021}
+  - {fileID: -8332290515003508547}
+  - {fileID: -6233079863763822449}
+  - {fileID: 2083634350024206349}
+  - {fileID: 5234870041692293638}
+  - {fileID: -5670953695368645626}
+  - {fileID: 5132774871009692132}
+  - {fileID: -2783539439916456914}
+  - {fileID: -1163855992792825794}
+  - {fileID: -7504769267611198001}
+  - {fileID: -3759763848247717659}
+  - {fileID: -4716307719686079985}
+  - {fileID: 3670393109412469138}
+  - {fileID: -6951482855938152634}
+  - {fileID: -5644568190811066551}
+  - {fileID: 6331879835525851036}
+  - {fileID: -4464976420761888628}
+  - {fileID: 2434200088994648161}
+  - {fileID: -6378018243859202681}
+  - {fileID: 3603600486403434617}
+  - {fileID: -4436860181411169065}
+  - {fileID: -2551669485700852666}
+  - {fileID: -3974426074299927793}
+  - {fileID: 8757008502794820746}
+  - {fileID: 7540850238947825561}
+  - {fileID: 2786632167110903458}
+  - {fileID: 4202836969701345660}
+  - {fileID: 1367781269925260584}
+  - {fileID: -1537558186520421757}
+  - {fileID: -2819696911554513710}
+  - {fileID: -8615688813863898046}
+  - {fileID: 5776989030117754716}
+  - {fileID: -6086876913420426309}
+  - {fileID: 8221671408504944560}
+  - {fileID: -3020215605763532584}
+  - {fileID: 4107284596863815796}
+  - {fileID: 4314707519513324440}
+  - {fileID: -3468724162703326803}
+  - {fileID: 2509691725008026473}
+  - {fileID: -5966392491790473587}
+  - {fileID: 8632930741245485889}
+  - {fileID: 1985827125583717704}
+  - {fileID: -8027055103761630529}
+  - {fileID: -1377040624098821599}
+  - {fileID: -7047489686311125935}
+  - {fileID: -5935094514037349117}
+  - {fileID: 7303150780845133037}
+  - {fileID: 6488177894668190139}
+  - {fileID: -2449304555231804325}
+  - {fileID: 2403497167143937834}
+  - {fileID: 9111846156641671746}
+  - {fileID: 2199498640064016099}
+  - {fileID: -625808286499699659}
+  - {fileID: 4261235183277925577}
+  - {fileID: 8749993299573257670}
+  - {fileID: 908730012690841107}
+  - {fileID: -8340781378443443502}
+  - {fileID: 6081439338348713236}
+  - {fileID: -6578568525627823888}
+  - {fileID: -1648589334025476871}
+  - {fileID: -6121607408653577384}
+  - {fileID: 1322541144458250902}
+  - {fileID: -814319588492630813}
+  - {fileID: -3053859426818079911}
+  - {fileID: -3150348302505067225}
+  - {fileID: 4543609967738719320}
+  - {fileID: 2434124870183706653}
+  - {fileID: -2811705762919663258}
+  - {fileID: -5998178654607010369}
+  - {fileID: 8017082290197260538}
+  - {fileID: -7656791690425092601}
+  - {fileID: 5058277330549472714}
+  - {fileID: 2027494183254148705}
+  - {fileID: 4153708676289105330}
+  - {fileID: -1511101672785156497}
+  - {fileID: 9123512981536599068}
+  - {fileID: -8639892408127264989}
+  - {fileID: 2888238781642361623}
+  - {fileID: 4925977838785372961}
+  - {fileID: 8372430101624551166}
+  - {fileID: -4253371869190220697}
+  - {fileID: -4776610169985429209}
+  - {fileID: -7622460638749016902}
+  - {fileID: -7272256064029683134}
+  - {fileID: -6544043707024974884}
+  - {fileID: 412060506573290479}
+  - {fileID: 8636714366231603708}
+  - {fileID: 448309105607368449}
+  - {fileID: -5602408488547087314}
+  - {fileID: 4733873590972225544}
+  - {fileID: 5209890841343619952}
+  - {fileID: -8177784893423294624}
+  - {fileID: 1345311672325454810}
+  - {fileID: -2478469970272943765}
+  - {fileID: -2980158651239134749}
+  - {fileID: 7183275896228717022}
+  - {fileID: 8811082505638730940}
+  - {fileID: 2535123058124598554}
+  - {fileID: 232105378104809003}
+  - {fileID: 3335700415649005368}
+  - {fileID: -2620157907514506382}
+  - {fileID: -5072331732149992529}
+  - {fileID: -905798179838903032}
+  - {fileID: 6059648893745857030}
+  - {fileID: 1066432348287274490}
+  - {fileID: -1672691791417116603}
+  - {fileID: -6144750604011828408}
+  - {fileID: 5346793983844698110}
+  - {fileID: -1974976460248368396}
+  - {fileID: 2938180535167869102}
+  - {fileID: 2809182467215766346}
+  - {fileID: -3533889641349055649}
+  - {fileID: 2572240006926153056}
+  - {fileID: -2891264841130986275}
+  - {fileID: -1523412945066366099}
+  - {fileID: -5635388938656675329}
+  - {fileID: -579863751712609920}
+  - {fileID: 4047265918922174466}
+  - {fileID: -3206767944852324246}
+  - {fileID: 8937932636556472129}
+  - {fileID: 830988472727601406}
+  - {fileID: -7898475316999835571}
+  - {fileID: 1630828972864961766}
+  - {fileID: -539932177595399243}
+  - {fileID: 4278498929579111974}
+  EditorParameters:
+  - {fileID: -176008035337638238}
+  - {fileID: -8827009043822893567}
+  - {fileID: 6284242241266420162}
+  - {fileID: 7622161993293333759}
+  - {fileID: 276054950715491256}
+  - {fileID: -5867645342291740299}
+  - {fileID: 3532279247751524670}
+  - {fileID: -3098670468030940466}
+  - {fileID: 5501660555754824353}
+  - {fileID: -2519056481618902927}
+  - {fileID: 831687553614799642}
+  - {fileID: 251704232927931603}
+  - {fileID: -253105108906080198}
+  - {fileID: -6297211180056239053}
+  - {fileID: 7229934105934222261}
+  - {fileID: -607380943499192123}
+  - {fileID: 6702962027914099670}
+  - {fileID: -9132277893551351803}
+  - {fileID: 3744823961240735986}
+  - {fileID: 7040419168670949624}
+  - {fileID: 2606594934760187744}
+  - {fileID: -4723795674010819225}
+  - {fileID: -7120052594003219141}
+  - {fileID: 1244600513297780691}
+  MasterBanks:
+  - {fileID: -1236382841709065919}
+  StringsBanks:
+  - {fileID: -1127699920155698533}
+  cacheTime: 638303249109658518
+  cacheVersion: 131601
+--- !u!114 &232105378104809003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Click_E
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Click_E
+  Guid:
+    Data1: -1656304429
+    Data2: 1148708319
+    Data3: -68628063
+    Data4: -1264088212
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 448
+--- !u!114 &251704232927931603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/KnockCount
+  m_EditorClassIdentifier: 
+  Name: KnockCount
+  StudioPath: parameter:/KnockCount
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 4129061853
+    data2: 3124982138
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &276054950715491256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DistanceToOutroWindows
+  m_EditorClassIdentifier: 
+  Name: DistanceToOutroWindows
+  StudioPath: parameter:/DistanceToOutroWindows
+  Min: 0
+  Max: 6
+  Default: 3
+  ID:
+    data1: 2709789765
+    data2: 1696964877
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &320788923700704668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/End_Player_Death_Bed/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &412060506573290479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manFoley/manBlockIdle
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manFoley/manBlockIdle
+  Guid:
+    Data1: 20680119
+    Data2: 1074759662
+    Data3: -1885350512
+    Data4: -1019185742
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1545776860529497852}
+  - {fileID: -1972481210347357620}
+  - {fileID: -4752381148811236979}
+  - {fileID: 5096697989539059321}
+  MinDistance: 4
+  MaxDistance: 40
+  Length: 20666
+--- !u!114 &448309105607368449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Tree_Collision
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Tree_Collision
+  Guid:
+    Data1: 2094462912
+    Data2: 1318111311
+    Data3: -1141527886
+    Data4: 1110214370
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0.5
+  MaxDistance: 20
+  Length: 1395
+--- !u!114 &730642825691882167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/In_Game
+  m_EditorClassIdentifier: 
+  Path: event:/Music/In_Game
+  Guid:
+    Data1: -946351871
+    Data2: 1242041080
+    Data3: 852659868
+    Data4: -1530271618
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5739349323542036200}
+  - {fileID: -4174425586552581073}
+  - {fileID: -2542947998450573774}
+  - {fileID: -49299569730052589}
+  - {fileID: -4643426673061085688}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 260000
+--- !u!114 &789605480245726923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn6/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &830988472727601406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manJumpscare_Tremolo
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manJumpscare_Tremolo
+  Guid:
+    Data1: 1069909122
+    Data2: 1205716517
+    Data3: -84591742
+    Data4: 1303452311
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &831687553614799642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ManDirDynamicReverb_Car
+  m_EditorClassIdentifier: 
+  Name: ManDirDynamicReverb_Car
+  StudioPath: parameter:/ManDirDynamicReverb_Car
+  Min: -180
+  Max: 180
+  Default: 0
+  ID:
+    data1: 1512079297
+    data2: 425554759
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &850765072185884158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &908730012690841107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Test
+  m_EditorClassIdentifier: 
+  Path: event:/Test
+  Guid:
+    Data1: -306422903
+    Data2: 1213862992
+    Data3: -728703355
+    Data4: -1872848702
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 418
+--- !u!114 &955945382537518764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/End_Player_Death_Bed/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1066432348287274490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/menu
+  m_EditorClassIdentifier: 
+  Path: event:/Music/menu
+  Guid:
+    Data1: -1573036063
+    Data2: 1276776102
+    Data3: -757953109
+    Data4: -1920083845
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3220490442868535308}
+  - {fileID: -7152173003358254008}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100000
+--- !u!114 &1244600513297780691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ManNinjaMode
+  m_EditorClassIdentifier: 
+  Name: ManNinjaMode
+  StudioPath: parameter:/ManNinjaMode
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1333258045
+    data2: 4197851586
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1322541144458250902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerKnifePU
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerKnifePU
+  Guid:
+    Data1: 1184500371
+    Data2: 1101722090
+    Data3: -346976347
+    Data4: 535903167
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 7273873
+--- !u!114 &1345311672325454810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Pause_Riser_Stop
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Pause_Riser_Stop
+  Guid:
+    Data1: 1848492230
+    Data2: 1317341898
+    Data3: 1089265312
+    Data4: 1139548603
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &1367781269925260584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Chase
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Chase
+  Guid:
+    Data1: 667510335
+    Data2: 1182968710
+    Data3: 1379914643
+    Data4: 1688175292
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5231002872230409430}
+  - {fileID: -2992855284198227838}
+  - {fileID: 6953629183420232316}
+  - {fileID: 7296662359360854672}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 75428
+--- !u!114 &1431904078707883594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_AmbienceWind/TripModulator
+  m_EditorClassIdentifier: 
+  Name: TripModulator
+  StudioPath: 
+  Min: 0
+  Max: 170
+  Default: 40
+  ID:
+    data1: 367521527
+    data2: 1436836166
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1458519202242857808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manTreeSteps_Cmd/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &1545776860529497852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manBlockIdle/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &1596772737914251477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_AmbienceFauna/LoopModulator
+  m_EditorClassIdentifier: 
+  Name: LoopModulator
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1396381206
+    data2: 3868467137
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &1630828972864961766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_MusicDuck
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_MusicDuck
+  Guid:
+    Data1: 1692659999
+    Data2: 1329589629
+    Data3: 1782120343
+    Data4: -255781311
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &1985827125583717704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestLoop
+  m_EditorClassIdentifier: 
+  Path: event:/TestLoop
+  Guid:
+    Data1: -52866981
+    Data2: 1192449885
+    Data3: -1697600323
+    Data4: -593841081
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2072
+--- !u!114 &2027494183254148705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn8
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn8
+  Guid:
+    Data1: 394351520
+    Data2: 1103208917
+    Data3: -641911414
+    Data4: 682101158
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5119903498697791314}
+  MinDistance: 1
+  MaxDistance: 160
+  Length: 703
+--- !u!114 &2043650167737190108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2083634350024206349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Night_Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Night_Ambience
+  Guid:
+    Data1: 1713764102
+    Data2: 1182348715
+    Data3: 999758508
+    Data4: -921282917
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5112735305029774883}
+  - {fileID: -3617397409627917293}
+  - {fileID: -1351012683432109078}
+  - {fileID: -2175582591889482881}
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &2199498640064016099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn9
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn9
+  Guid:
+    Data1: 1382807686
+    Data2: 1113351834
+    Data3: -1851527517
+    Data4: -416584851
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3050439094977286811}
+  MinDistance: 1
+  MaxDistance: 190
+  Length: 703
+--- !u!114 &2234351795682759998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manRestartDrone/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &2235762391573189354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Day_Ambience/Wind_Distance
+  m_EditorClassIdentifier: 
+  Name: Wind_Distance
+  StudioPath: 
+  Min: 0
+  Max: 35
+  Default: 20
+  ID:
+    data1: 2502678788
+    data2: 75836602
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2324505542692696841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_AmbienceFauna/StartBackgroundNightAmb
+  m_EditorClassIdentifier: 
+  Name: StartBackgroundNightAmb
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 440977224
+    data2: 14395268
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2349818913750473849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn14/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2403497167143937834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manMovement/manStepsRestart
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manMovement/manStepsRestart
+  Guid:
+    Data1: 894038902
+    Data2: 1336141066
+    Data3: 328195476
+    Data4: 547221139
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 430
+--- !u!114 &2434124870183706653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manPreChase/manScream_3
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manPreChase/manScream_3
+  Guid:
+    Data1: -478377060
+    Data2: 1271122162
+    Data3: -863443069
+    Data4: 1934754711
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 9
+  MaxDistance: 25
+  Length: 1503
+--- !u!114 &2434200088994648161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerDoorToEnding
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerDoorToEnding
+  Guid:
+    Data1: 323596332
+    Data2: 1187892652
+    Data3: -1308314745
+    Data4: 1976180805
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 1451
+--- !u!114 &2438306271126384534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Grasshopper_Loop/Restart
+  m_EditorClassIdentifier: 
+  Name: Restart
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011556768
+    data2: 2173038122
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2509691725008026473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/Jumpscare_OutPlayer
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/Jumpscare_OutPlayer
+  Guid:
+    Data1: 325073747
+    Data2: 1316006104
+    Data3: 764329149
+    Data4: 807433211
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2850
+--- !u!114 &2535123058124598554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Click_Off
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Click_Off
+  Guid:
+    Data1: 345409486
+    Data2: 1135584690
+    Data3: 1185802153
+    Data4: -990030399
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 433
+--- !u!114 &2572240006926153056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/manTreeSteps_Cmd
+  m_EditorClassIdentifier: 
+  Path: event:/Events/manTreeSteps_Cmd
+  Guid:
+    Data1: 1800659698
+    Data2: 1275221682
+    Data3: -1065107541
+    Data4: -1393610247
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6613428415326707083}
+  - {fileID: 1458519202242857808}
+  - {fileID: -3736708123987504326}
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 2006
+--- !u!114 &2606594934760187744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CompassTimer
+  m_EditorClassIdentifier: 
+  Name: CompassTimer
+  StudioPath: parameter:/CompassTimer
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 318713933
+    data2: 2619746212
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2786632167110903458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Outro_Stinger
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Outro_Stinger
+  Guid:
+    Data1: 1310287930
+    Data2: 1269759856
+    Data3: 1849816239
+    Data4: -296818822
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -348869497945354849}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &2809182467215766346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_CompassOn
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_CompassOn
+  Guid:
+    Data1: 1404456432
+    Data2: 1129253691
+    Data3: -960245066
+    Data4: 83832255
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 833
+--- !u!114 &2851295742896237531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerFS/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2876654047106588693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manBreathe/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &2888238781642361623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn3
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn3
+  Guid:
+    Data1: -118246231
+    Data2: 1270852657
+    Data3: 102680765
+    Data4: 703840673
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5318926949791289177}
+  MinDistance: 1
+  MaxDistance: 110
+  Length: 703
+--- !u!114 &2938180535167869102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Night_AmbienceFauna
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Night_AmbienceFauna
+  Guid:
+    Data1: 462243056
+    Data2: 1276031902
+    Data3: -2100959553
+    Data4: -1909556228
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1596772737914251477}
+  - {fileID: 2324505542692696841}
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &3050439094977286811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn9/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &3220490442868535308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/menu/SkipIntro
+  m_EditorClassIdentifier: 
+  Name: SkipIntro
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2632014119
+    data2: 112031974
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3335700415649005368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Events/House_Build
+  m_EditorClassIdentifier: 
+  Path: event:/Events/House_Build
+  Guid:
+    Data1: 219703252
+    Data2: 1189441957
+    Data3: -1173638524
+    Data4: -605397099
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5792876269794626173}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 11400
+--- !u!114 &3532279247751524670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ParamModulator
+  m_EditorClassIdentifier: 
+  Name: ParamModulator
+  StudioPath: parameter:/ParamModulator
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 4240618428
+    data2: 1280909841
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3603600486403434617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manDeathRestart
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manDeathRestart
+  Guid:
+    Data1: 2093453872
+    Data2: 1199103489
+    Data3: 850031502
+    Data4: -576844134
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4050
+--- !u!114 &3670393109412469138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manFoley/manBreathe
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manFoley/manBreathe
+  Guid:
+    Data1: -1489879005
+    Data2: 1174071021
+    Data3: -2061701248
+    Data4: 2103893110
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2876654047106588693}
+  - {fileID: 4046102547643212958}
+  MinDistance: 2
+  MaxDistance: 40
+  Length: 2950
+--- !u!114 &3678364256758713377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerFS/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3744823961240735986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ManualDist_Car
+  m_EditorClassIdentifier: 
+  Name: ManualDist_Car
+  StudioPath: parameter:/ManualDist_Car
+  Min: 1
+  Max: 350
+  Default: 14.288577
+  ID:
+    data1: 72220672
+    data2: 1150876199
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3865757122679521672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Grasshopper_Loop/IsLoopPlaying
+  m_EditorClassIdentifier: 
+  Name: IsLoopPlaying
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3141963145
+    data2: 1268664328
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &4045721597384497384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_Hover/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &4046102547643212958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manBreathe/ManualDistMan
+  m_EditorClassIdentifier: 
+  Name: ManualDistMan
+  StudioPath: 
+  Min: 1
+  Max: 30
+  Default: 15
+  ID:
+    data1: 760613910
+    data2: 2179579966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4047265918922174466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn2
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn2
+  Guid:
+    Data1: -1453954049
+    Data2: 1129997643
+    Data3: -1968077911
+    Data4: -1414599220
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6315703028329701917}
+  MinDistance: 1
+  MaxDistance: 110
+  Length: 703
+--- !u!114 &4107284596863815796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn10
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn10
+  Guid:
+    Data1: -673879731
+    Data2: 1175998663
+    Data3: -876647288
+    Data4: -1401788861
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5680572021548025968}
+  MinDistance: 1
+  MaxDistance: 190
+  Length: 703
+--- !u!114 &4153708676289105330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_CompassOff
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_CompassOff
+  Guid:
+    Data1: 55944609
+    Data2: 1305751904
+    Data3: -331662699
+    Data4: 700387036
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 583
+--- !u!114 &4202836969701345660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/manRestartDrone
+  m_EditorClassIdentifier: 
+  Path: event:/Music/manRestartDrone
+  Guid:
+    Data1: -1961202630
+    Data2: 1289158539
+    Data3: -1139943238
+    Data4: -891313262
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8224388031620755708}
+  - {fileID: 2234351795682759998}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12392
+--- !u!114 &4261235183277925577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_LookingAtMan
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_LookingAtMan
+  Guid:
+    Data1: 615377032
+    Data2: 1188908278
+    Data3: 1695177619
+    Data4: -1399546455
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4791833474184692675}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4278498929579111974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_JScareDuck
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_JScareDuck
+  Guid:
+    Data1: -1120974212
+    Data2: 1330604911
+    Data3: 1191611777
+    Data4: -708717132
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4314707519513324440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manPreChase/manScream
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manPreChase/manScream
+  Guid:
+    Data1: 1695710545
+    Data2: 1275133423
+    Data3: -1154629469
+    Data4: 357148276
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 9
+  MaxDistance: 25
+  Length: 2433
+--- !u!114 &4319198589282548335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS_Walk/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4543609967738719320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_Chase
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_Chase
+  Guid:
+    Data1: -477128551
+    Data2: 1115885981
+    Data3: 630715832
+    Data4: 298876604
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4724460643244803328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS_Walk_Outside/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &4733873590972225544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_PlayerStepsChase
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_PlayerStepsChase
+  Guid:
+    Data1: -440133949
+    Data2: 1235937400
+    Data3: 1160230566
+    Data4: -950801255
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7577238132793396320}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4757038785028143624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4803864905765056918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manTreeSteps_OS/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4925977838785372961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Day_Ambience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Day_Ambience
+  Guid:
+    Data1: -800041044
+    Data2: 1296356134
+    Data3: 1089013395
+    Data4: 232444334
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8116431719942948813}
+  - {fileID: 8969551840569552125}
+  - {fileID: 5149550467537602299}
+  - {fileID: 2235762391573189354}
+  MinDistance: 2
+  MaxDistance: 20
+  Length: 40000
+--- !u!114 &5058277330549472714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manMovement/manMov
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manMovement/manMov
+  Guid:
+    Data1: 1002618527
+    Data2: 1181051714
+    Data3: -256526666
+    Data4: -145985008
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8536587795531710412}
+  MinDistance: 1
+  MaxDistance: 30
+  Length: 385
+--- !u!114 &5067944633190977659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Intro/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &5096697989539059321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manBlockIdle/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5132774871009692132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manJumpscare_Bed
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manJumpscare_Bed
+  Guid:
+    Data1: -1358003694
+    Data2: 1114192787
+    Data3: 1055536809
+    Data4: 1527364323
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2850
+--- !u!114 &5149550467537602299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Day_Ambience/ParamModulator
+  m_EditorClassIdentifier: 
+  Name: ParamModulator
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 100
+  ID:
+    data1: 4240618428
+    data2: 1280909841
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5209890841343619952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn17
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn17
+  Guid:
+    Data1: -805540667
+    Data2: 1316107538
+    Data3: 872104116
+    Data4: -1676378643
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6921911896523147577}
+  MinDistance: 1
+  MaxDistance: 300
+  Length: 703
+--- !u!114 &5226827750133894128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cricket_Loop_Main/Restart
+  m_EditorClassIdentifier: 
+  Name: Restart
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011556768
+    data2: 2173038122
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5231002872230409430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chase/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5234870041692293638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_RestartDrone_SideChain
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_RestartDrone_SideChain
+  Guid:
+    Data1: 887518728
+    Data2: 1223410697
+    Data3: 356602810
+    Data4: 1964458986
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5346793983844698110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_HornDuck
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_HornDuck
+  Guid:
+    Data1: -469206550
+    Data2: 1338299205
+    Data3: 687324328
+    Data4: -911198293
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5423929273080482690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_AmbienceWind/LoopModulator
+  m_EditorClassIdentifier: 
+  Name: LoopModulator
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1396381206
+    data2: 3868467137
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5493414628801292227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manFS_Walk/AllowIncrement
+  m_EditorClassIdentifier: 
+  Name: AllowIncrement
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3734548369
+    data2: 597585272
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5501660555754824353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: parameter:/DistToMan
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5501931859003197978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn13/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5582956200718563738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/End_Player_Death_Bed/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5591927646366545782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manPreChase/ManualDistMan
+  m_EditorClassIdentifier: 
+  Name: ManualDistMan
+  StudioPath: 
+  Min: 1
+  Max: 30
+  Default: 15
+  ID:
+    data1: 760613910
+    data2: 2179579966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5680572021548025968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn10/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5776989030117754716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_InsideCar
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_InsideCar
+  Guid:
+    Data1: -1059030199
+    Data2: 1128758621
+    Data3: 1623174551
+    Data4: 1211288216
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &5795976769394785256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_Ambience_Out/LoopModulator
+  m_EditorClassIdentifier: 
+  Name: LoopModulator
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 1396381206
+    data2: 3868467137
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &5999127393195682263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Night_AmbienceWind/Wind_Distance
+  m_EditorClassIdentifier: 
+  Name: Wind_Distance
+  StudioPath: 
+  Min: 0
+  Max: 35
+  Default: 20
+  ID:
+    data1: 2502678788
+    data2: 75836602
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6025362584931912199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cricket_Loop_Main/IsLoopPlaying
+  m_EditorClassIdentifier: 
+  Name: IsLoopPlaying
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 1
+  ID:
+    data1: 3141963145
+    data2: 1268664328
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6046941360801452591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerLogDrop/HowManyLogs
+  m_EditorClassIdentifier: 
+  Name: HowManyLogs
+  StudioPath: 
+  Min: 0
+  Max: 10
+  Default: 0
+  ID:
+    data1: 2636047571
+    data2: 850248305
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6059648893745857030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_HouseBuild
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_HouseBuild
+  Guid:
+    Data1: -747728928
+    Data2: 1106984370
+    Data3: 2117159045
+    Data4: 32402290
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6081439338348713236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/SS_OutroBed
+  m_EditorClassIdentifier: 
+  Path: snapshot:/SS_OutroBed
+  Guid:
+    Data1: 230328202
+    Data2: 1198414199
+    Data3: 1272458115
+    Data4: 13492699
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &6254699576423369371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/End_Player_Duck/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6284242241266420162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/FakeDistMan
+  m_EditorClassIdentifier: 
+  Name: FakeDistMan
+  StudioPath: parameter:/FakeDistMan
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 1294236443
+    data2: 1279682979
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6331879835525851036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/PlayerLogDrop
+  m_EditorClassIdentifier: 
+  Path: event:/Player/PlayerLogDrop
+  Guid:
+    Data1: -1323405782
+    Data2: 1278927600
+    Data3: 830512259
+    Data4: -1866758857
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6046941360801452591}
+  MinDistance: 3
+  MaxDistance: 20
+  Length: 4166815
+--- !u!114 &6440413197906833607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manDuringChase/ManualDistMan
+  m_EditorClassIdentifier: 
+  Name: ManualDistMan
+  StudioPath: 
+  Min: 1
+  Max: 30
+  Default: 15
+  ID:
+    data1: 760613910
+    data2: 2179579966
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6488177894668190139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Compass_Click
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Compass_Click
+  Guid:
+    Data1: 312142191
+    Data2: 1227317589
+    Data3: -1806930793
+    Data4: 1322739123
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -1912506690684748570}
+  - {fileID: 7956413494685224948}
+  - {fileID: -5944033674629985976}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 255
+--- !u!114 &6523928246121409777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cricket_Loop_Main/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6613428415326707083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manTreeSteps_Cmd/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6702962027914099670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ManualDirManToPlayer
+  m_EditorClassIdentifier: 
+  Name: ManualDirManToPlayer
+  StudioPath: parameter:/ManualDirManToPlayer
+  Min: -180
+  Max: 180
+  Default: 0
+  ID:
+    data1: 1100029682
+    data2: 940198049
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6953629183420232316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chase/ManualDirManToPlayer
+  m_EditorClassIdentifier: 
+  Name: ManualDirManToPlayer
+  StudioPath: 
+  Min: -180
+  Max: 180
+  Default: 0
+  ID:
+    data1: 1100029682
+    data2: 940198049
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7040419168670949624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ManualDirDynamicReverb
+  m_EditorClassIdentifier: 
+  Name: ManualDirDynamicReverb
+  StudioPath: parameter:/ManualDirDynamicReverb
+  Min: -180
+  Max: 180
+  Default: 0
+  ID:
+    data1: 658458102
+    data2: 3114862841
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7158464856358857428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/In_Outro/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &7183275896228717022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manFoley/manDragRestart
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manFoley/manDragRestart
+  Guid:
+    Data1: -1169948213
+    Data2: 1263640847
+    Data3: -513131863
+    Data4: 200191197
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &7229934105934222261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: parameter:/GameState
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &7271466971942644355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_CompassTurn/isChasing
+  m_EditorClassIdentifier: 
+  Name: isChasing
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3014246892
+    data2: 1563963749
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7296662359360854672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Chase/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &7303150780845133037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manPreChase/manScream_2
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manPreChase/manScream_2
+  Guid:
+    Data1: 372065647
+    Data2: 1229725115
+    Data3: 376779455
+    Data4: 1717332628
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 9
+  MaxDistance: 25
+  Length: 1812
+--- !u!114 &7540850238947825561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manDeathRestart_Laugh 2
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manDeathRestart_Laugh 2
+  Guid:
+    Data1: -1547003336
+    Data2: 1123155559
+    Data3: 1118532019
+    Data4: 546609665
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2566
+--- !u!114 &7577238132793396320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/SS_PlayerStepsChase/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7622161993293333759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: parameter:/isInsideTreeMan
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7788660103971913820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Cicada_Loop_Main/Restart
+  m_EditorClassIdentifier: 
+  Name: Restart
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1011556768
+    data2: 2173038122
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7956413494685224948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/UI_Compass_Click/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &8017082290197260538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manDeathRestart_Laugh
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manDeathRestart_Laugh
+  Guid:
+    Data1: 1806550686
+    Data2: 1116493986
+    Data3: 1563138987
+    Data4: 498723312
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3100
+--- !u!114 &8092178939964102122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn4/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8116431719942948813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Day_Ambience/GameState
+  m_EditorClassIdentifier: 
+  Name: GameState
+  StudioPath: 
+  Min: 0
+  Max: 7
+  Default: 0
+  ID:
+    data1: 1179472326
+    data2: 997504254
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - In_Game_Day
+  - In_Game_Night
+  - Dead
+  - In_Game_Outro
+  - In_Ending_Bed
+  - In_Ending_Outside
+  - In_Ending_Credits
+  Exists: 1
+--- !u!114 &8221671408504944560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manFoley/manBreatheOut
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manFoley/manBreatheOut
+  Guid:
+    Data1: 894566731
+    Data2: 1279522669
+    Data3: -1811757439
+    Data4: 484549967
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7787281376581229371}
+  - {fileID: -3649864700036338559}
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 2950
+--- !u!114 &8334888703986071203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn5/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8372430101624551166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn7
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn7
+  Guid:
+    Data1: 310539180
+    Data2: 1116009150
+    Data3: -1906044518
+    Data4: -1024848494
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8475985833545126686}
+  MinDistance: 1
+  MaxDistance: 160
+  Length: 703
+--- !u!114 &8536587795531710412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manMov/DistToMan
+  m_EditorClassIdentifier: 
+  Name: DistToMan
+  StudioPath: 
+  Min: 0
+  Max: 20
+  Default: 20
+  ID:
+    data1: 374180695
+    data2: 2573653118
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8632930741245485889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Night_Ambience_Out
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Night_Ambience_Out
+  Guid:
+    Data1: 924242521
+    Data2: 1231557649
+    Data3: -526865985
+    Data4: -507815173
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5795976769394785256}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &8636714366231603708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn1
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn1
+  Guid:
+    Data1: -112880452
+    Data2: 1223230572
+    Data3: -934781789
+    Data4: 663017501
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8930856099834292228}
+  MinDistance: 1
+  MaxDistance: 110
+  Length: 703
+--- !u!114 &8676281919876338021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn13
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn13
+  Guid:
+    Data1: -788487678
+    Data2: 1287530064
+    Data3: -736781410
+    Data4: -302562461
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5501931859003197978}
+  MinDistance: 1
+  MaxDistance: 240
+  Length: 703
+--- !u!114 &8749993299573257670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn15
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn15
+  Guid:
+    Data1: -1329506679
+    Data2: 1270941464
+    Data3: -2138702204
+    Data4: 1815455817
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8799057012739804512}
+  MinDistance: 1
+  MaxDistance: 270
+  Length: 703
+--- !u!114 &8751973816463595886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8757008502794820746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/UI_Compass_Break
+  m_EditorClassIdentifier: 
+  Path: event:/UI/UI_Compass_Break
+  Guid:
+    Data1: 1045726520
+    Data2: 1275655709
+    Data3: -374606718
+    Data4: -784093360
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7747433524071974699}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 725
+--- !u!114 &8781965494681797624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PlayerFS/Terrain
+  m_EditorClassIdentifier: 
+  Name: Terrain
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 4038244893
+    data2: 2506544968
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - Grass
+  - Dirt
+  - Wood
+  Exists: 1
+--- !u!114 &8790008859389059949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/End_Player_Duck/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8794734672307289370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manDuringChase/ManualDirManToPlayer
+  m_EditorClassIdentifier: 
+  Name: ManualDirManToPlayer
+  StudioPath: 
+  Min: -180
+  Max: 180
+  Default: 0
+  ID:
+    data1: 1100029682
+    data2: 940198049
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8799057012739804512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn15/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8811082505638730940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn14
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn14
+  Guid:
+    Data1: 408010443
+    Data2: 1155166533
+    Data3: -1020594515
+    Data4: 273501298
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2349818913750473849}
+  MinDistance: 1
+  MaxDistance: 240
+  Length: 703
+--- !u!114 &8814248763694810035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/manStepsTree/isInsideTreeMan
+  m_EditorClassIdentifier: 
+  Name: isInsideTreeMan
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3074768953
+    data2: 3311057091
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8930856099834292228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn1/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8937932636556472129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Chars/manJumpscare_Norm
+  m_EditorClassIdentifier: 
+  Path: event:/Chars/manJumpscare_Norm
+  Guid:
+    Data1: -592001937
+    Data2: 1087147475
+    Data3: -854905460
+    Data4: -1477216540
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &8961337305104697468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/playerCarHorn12/Loop_Count
+  m_EditorClassIdentifier: 
+  Name: Loop_Count
+  StudioPath: 
+  Min: 0
+  Max: 8
+  Default: 0
+  ID:
+    data1: 2199399545
+    data2: 1072069254
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8969551840569552125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Day_Ambience/MDistToCar
+  m_EditorClassIdentifier: 
+  Name: MDistToCar
+  StudioPath: 
+  Min: 15
+  Max: 70
+  Default: 70
+  ID:
+    data1: 2185528145
+    data2: 3421360102
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &9111846156641671746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/Outro_Wind
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/Outro_Wind
+  Guid:
+    Data1: -303012992
+    Data2: 1099003592
+    Data3: -1038957945
+    Data4: 1144685047
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2477099114014167480}
+  MinDistance: 0.2
+  MaxDistance: 6
+  Length: 37200
+--- !u!114 &9123512981536599068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/CarHorns/playerCarHorn4
+  m_EditorClassIdentifier: 
+  Path: event:/Player/CarHorns/playerCarHorn4
+  Guid:
+    Data1: 1995632546
+    Data2: 1257939917
+    Data3: 2001064858
+    Data4: -1857375044
+  Banks:
+  - {fileID: -1236382841709065919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8092178939964102122}
+  MinDistance: 1
+  MaxDistance: 110
+  Length: 703

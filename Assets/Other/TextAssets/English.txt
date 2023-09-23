@@ -1,0 +1,75 @@
+#UNCLE
+carFirst=There should be a clearing in the forest north of the road I can use to build the house. The logs that i will use for that are in the trunk.
+tooFar=I forgot to get a log and the compass from the back of the car.
+tired=I am tired.... I should go back to the car and rest for a while.
+restart=Uhh.....what happened? My head hurts so much...
+duck=Picked up a rubber duck. What is it doing here?
+#
+#MESSAGES
+message0=Basics of survival in the forest://Use a compass to reach your destination./The red needle always points north./However, note that this can slow you down.//If you get lost and your car is nearby, you can try to activate the alarm system of your car using the keys.//Note that the keys will be drained after an average of 5 uses and can only be recharged by the manufacturer. Therefore, its advised to only use the keys when absolutely necessary.
+message1=Hello, I am Steve, the owner of the land you are on. //I noticed you want to build a house on my land and I would like you to stop what you are doing. //If you do not comply, legal actions will be taken accordingly.//With Best Regards/Steve
+message2=It seems you are still determined to build this house of yours.//To solve this situation, I will send over one of my employees to meet with you in person and "discuss" further procedures.//With Best Regards/Steve
+message5=Now you're really pissing me off...
+messageHard1=So I see you are trying to test my employee's skills again.//Don't worry. I made sure he got into the best gym in the country for this.
+#
+#OBJECTIVES
+objectiveFirst=Objective: Get a log from the car.
+objectiveHouse=Objective: Carry the log to the clearing in the north.
+objectiveCar=Objective: Get another log from the car.
+objectiveSleep=Objective: Return to the car to rest.
+objectiveRemain=Objective: Carry the remaining logs to the clearing.
+objectiveDoor=Objective: OPEN THE DOOR
+objectiveBed=Objective: Go to bed?
+#
+#COMPASS
+broken=Compass broke
+repaired=Compass repaired
+optional=Optional: Fix compass at car using toolbox.
+#
+#INPUT
+dismiss=E
+interact=E
+skip=E to Skip.
+close=E to close note.
+hold=Continue holding to return to main menu.
+#
+#OTHER
+sign=A sign reading: "PRIVATE PROPERTY! NO TRESPASSING! VIOLATORS WILL BE PROSECUTED!".
+carKeys=Car key battery empty.
+#
+#ENDING
+hard=HARD MODE
+credits=A game by Ibrahim Oezhan and Edgar Canelas//If you want to support us consider/following us and-or sharing the game with your friends.//Press Esc to return to the main menu.
+steve=Hello... It's me ... Steve. I wanted to meet you in person. It seems our legal actions have not hindered you from building this. I guess we need to use ... illegal actions....
+#
+#HOUSE
+not=This is not the door that someone is knocking at.
+book=A book titled: "How to not fail a game jam deadline". A classic!
+chair=A new chair.
+door=There is no reason for me to go outside now.
+who=Who could that be at this hour?
+knife=Picked up knife.
+bed=I should open the door.
+laptop=A new laptop. Probably gonna use it for some game development.
+whatDo=I am so tired after building this house. I should get some sleep...
+#
+#Menu
+time=Your Time: 
+timeHard=Your Time (Hard): 
+new=New Version Available
+itch=Our Itch.io
+play=Play
+playNoDay=Play (Skip Day)
+playHard=Play (Hard Mode)
+set=Settings
+quit=Quit
+back=Back
+qual=Quality
+lang=Language
+screen=Screen
+screen0=Fullscreen
+screen2=Borderless
+screen1=Windowed
+qual0=Low
+qual1=Medium
+qual2=High

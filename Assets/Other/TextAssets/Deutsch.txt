@@ -1,0 +1,75 @@
+#UNCLE
+carFirst=Es sollte eine Lichtung im Wald nördlich der Straße geben, auf der ich das Haus bauen kann. Die Stämme die ich dazu nutzen werde sind im Kofferraum.
+tooFar=Ich habe vergessen, einen Stamm und den Kompass aus dem Kofferraum zu holen.
+tired=Ich bin müde.... Ich sollte zum Auto zurückkehren und mich eine Weile ausruhen.
+restart=Uhh..... Was ist passiert? Mein Kopf tut so weh...
+duck=Gummiente aufgehoben. Was macht sie hier?
+#
+#MESSAGES
+message0=Überlebensgrundlagen im Wald://Verwenden Sie einen Kompass, um Ihr Ziel zu erreichen. Die rote Nadel zeigt immer nach Norden. Beachten Sie jedoch, dass dies Sie langsamer machen kann.//Wenn Sie sich verlaufen haben und Ihr Auto in der Nähe ist, können Sie versuchen, das Alarmsystem Ihres Autos mit den Schlüsseln zu aktivieren.//Beachten Sie, dass die Schlüssel im Durchschnitt nach 5 nutzungen leer sind und nur vom Hersteller aufgeladen werden können. Verwenden Sie die Schlüssel also nur, wenn notwendig.
+message1=Hallo, ich bin Steve, der Besitzer des Landes, auf dem Sie sind.//Ich habe bemerkt, dass Sie auf meinem Land ein Haus bauen möchten, und ich möchte, dass Sie aufhören, was Sie tun.//Wenn Sie nicht kooperieren, werden rechtliche Maßnahmen ergriffen.//Mit freundlichen Grüßen/Steve
+message2=Es scheint dass Sie immer noch entschlossen sind Ihr Haus zu bauen.//Um diese Situation zu klären werde ich einen Mitarbeiter beauftragen, um Sie persönlich zu treffen und weitere Verfahren zu "besprechen".//Mit freundlichen Grüßen/Steve
+message5=Jetzt regst du mich wirklich auf...
+messageHard1=Ich sehe Sie versuchen die Fähigkeiten meines Mitarbeiters erneut auf die Probe zu stellen.//Keine Sorge. Ich ließ ihn hierfür das beste Gym des Landes besuchen.
+#
+#OBJECTIVES
+objectiveFirst=Ziel: Hole einen Stamm vom Auto.
+objectiveHouse=Ziel: Trage den Stamm zur Lichtung im Norden.
+objectiveCar=Ziel: Hole einen weiteren Stamm vom Auto.
+objectiveSleep=Ziel: Gehe zurück zum Auto und ruhe dich aus.
+objectiveRemain=Ziel: Bring die restlichen Stämme zur Lichtung.
+objectiveDoor=Ziel: ÖFFNE DIE TÜR
+objectiveBed=Ziel: Geh schlafen?
+#
+#COMPASS
+broken=Kompass kaputt
+repaired=Kompass repariert
+optional=Optional: Kompass am Auto mithilfe des Werkzeugkastens reparieren.
+#
+#INPUT
+dismiss=E
+interact=E
+skip=E zum Überspringen.
+close=Drücke E, um die Notiz wegzulegen.
+hold=Halte gedrückt, um zum Hauptmenü zurückzukehren.
+#
+#OTHER
+carKeys=Autoschlüsselbatterie leer.
+sign=Ein Schild mit der Aufschrift: "Privatgrundstück - Betreten verboten - Zuwiderhandlungen werden strafrechtlich verfolgt"
+#
+#ENDING
+hard=SCHWERER MODUS
+credits=Ein Spiel von Ibrahim Özhan und Edgar Canelas//Wenn Sie uns unterstützen möchten, denken Sie daran, uns zu folgen und-oder das Spiel mit Ihren Freunden zu teilen.//Esc drücken, um zum Hauptmenü zurückzukehren.
+steve=Hallo... Ich bin's... Steve. Ich wollte dich persönlich treffen. Es scheint, dass unsere rechtlichen Maßnahmen dich nicht davon abgehalten haben, dies zu bauen. Ich denke, wir müssen... Illegale Maßnahmen anwenden....
+#
+#HOUSE
+not=Dies ist nicht die Tür, an der jemand klopft.
+book=Ein Buch mit dem Titel: "Wie man eine Game-Jam-Deadline nicht vermasselt". Ein Klassiker!
+chair=Ein neuer Stuhl
+door=Es gibt keinen Grund, warum ich jetzt nach draußen gehen sollte
+who=Wer könnte das um diese Uhrzeit sein?
+knife=Messer aufgehoben
+bed=Ich sollte die Tür öffnen.
+laptop=Ein neuer Laptop. Wahrscheinlich werde ich ihn zur Entwicklung von Spielen verwenden.
+whatDo=Ich bin so müde nach dem Bau dieses Hauses. Ich sollte etwas schlafen...
+#
+#MENU
+time=Deine Zeit: 
+timeHard=Deine Zeit (Schwer): 
+new=Neue Version Verfügbar
+itch=Unser Itch.io
+play=Spielen
+playNoDay=Spielen (Tag überspringen)
+playHard=Spielen (Schwer)
+set=Einstellungen
+quit=Beenden
+back=Zurück
+qual=Qualität
+lang=Sprache
+screen=Bildschirm
+screen0=Vollbild
+screen1=Fenster
+screen2=Randlos
+qual0=Niedrig
+qual1=Mittel
+qual2=Hoch

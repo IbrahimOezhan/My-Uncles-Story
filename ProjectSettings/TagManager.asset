@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CinemachineTarget
+  - Floor
+  - Collidable
+  - Man
+  - A_Cicada
+  - A_SL_Emitter
+  - A_Terrain
+  - A_TreeCol
+  - SpawnPoint
+  - Interactable
+  - A_Compass_Letter
+  - A_Car
+  - A_SL_Cicada_Tag
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PostProc
+  - Water
+  - UI
+  - STOPSIGN
+  - Cam2
+  - Character
+  - Ground
+  - Dirt
+  - Grass
+  - 
+  - Wood
+  - 
+  - Tree
+  - SL_Emitter_A
+  - SL_Emitter_B
+  - SL_Emitter_C
+  - Interactable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

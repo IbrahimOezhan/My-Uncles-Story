@@ -10,7 +10,7 @@ public class Menu_Play : MonoBehaviour
 
     public void Play()
     {
-        if(PlayerPrefs.GetInt("reachedNight") == 1) OnMultiOption.Invoke();
+        if (PlayerPrefs.GetInt("reachedNight") == 1) OnMultiOption.Invoke();
         else OnSingleOption.Invoke();
     }
 }

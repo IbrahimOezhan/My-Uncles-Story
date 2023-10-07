@@ -63,13 +63,12 @@ public class NightManager : MonoBehaviour
 
     private void VisualChanges()
     {
-        gameManager.hand1.intensity = 0.01f;
-        gameManager.hand2.intensity = 0.01f;
         Light[] lights = FindObjectsOfType<Light>();
         for (int i = 0; i < lights.Length; i++) if (lights[i].type == LightType.Directional) lights[i].intensity = nightIntensity;
         RenderSettings.fogDensity = 0.1f;
         RenderSettings.fogColor = color;
         RenderSettings.skybox = nightbox;
+        RenderSettings.ambientLight = new(0.227451f, 0.227451f, 0.227451f);
     }
 
     public void GenerateNewList()

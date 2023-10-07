@@ -1,0 +1,77 @@
+# Slahes (/) are used for line breaks. They can also be stacked (//)
+#
+#UNCLE
+carFirst=Yolun kuzeyindeki ormanda evi inşa etmek için kullanabileceğim bir alan olmalı.. Bunun için kamyondaki kütükleri kullanacağım.
+tooFar=Kamyondan kütük ve pusula almayı unuttum.
+tired=Yoruldum.... Kamyona geri dönüp biraz dinlenmeliyim.
+restart=Uhh.....ne oldu? Başım çok ağrıyor...
+duck=Bir plastik ördek aldım. Bunun burada ne işi var ki?
+#
+#MESSAGES
+message0=Ormanda hayatta kalmanın altın kuralları://Gideceğiniz yere ulaşmak için pusula kullanın./Kırmızı çubuk her zaman kuzeyi gösterir./Fakat, bunun sizi yavaşlatabileceğini de unutmayın.//Eğer kaybolduysanız ve arabanız yanınızdaysa, araba anahtarlarınızı kullanarak alarm sistemini çalıştırabilirsiniz.//Anahtarların maksimum 5 kullanımlık olduğunu unutmayın, daha sonra imalatçıdan şarj etmeniz gerekecektir. Bu yüzden, anahtarları gerçekten gerekli olduğunda kullanmanız önerilir.
+message1=Merhaba, ben Steve, şuanda üzerinde olduğunuz arazinin sahibiyim. //Benim arazimde bir ev inşa etmek istediğinizi farkettim ve sizi durdurmam gerektiğini düşündüm. //Eğer uyarımı dikkate almazsanız, yasal işlemlere başvuracağım.//Saygılarımla/Steve
+message2=Evi inşa etmekte hala kararlı olduğunuzu görüyorum.//Bu durumu çözmek için, sizinle konuyu 'tartışıp' tatlıya bağlayacak bir çalışanımı göndereceğim.//Saygılarımla/Steve
+message5=Şimdi gerçekten beni sinirlendirmeye başladın...
+messageHard1=Demek yeniden çalışanımın yeteneklerini test etmeye çalışıyorsun.//Merak etme. Bunun için köydeki en iyi spor salonuna gittiğinden emin olacağım.
+#
+#OBJECTIVES
+objectiveFirst=Görev: Kamyondan bir kütük al.
+objectiveHouse=Görev: Kütüğü kuzeydeki açıklığa taşı.
+objectiveCar=Görev: Kamyondan başka bir kütük al.
+objectiveSleep=Görev: Dinlenmek için kamyona dön.
+objectiveRemain=Görev: Kalan kütükleri açıklığa taşı.
+objectiveDoor=Görev: KAPIYI AÇ
+objectiveBed=Görev: Yatağa git?
+#
+#COMPASS
+broken=Pusula kırıldı
+repaired=Pusula tamir edildi
+optional=Opsiyonel: Alet çantasını kullanarak pusulayı tamir et.
+#
+#INPUT
+dismiss=E
+interact=E - Etkileşim
+skip=Geçmek için E tuşuna basınız.
+close=Notu kapatmak için E tuşuna basınız.
+hold=Ana menüye dönmek için basılı tutun.
+#
+#OTHER
+sign=Burada: "Burasi Özel Mülk! İzinsiz Giriş Yasaktır! İhlal Edenler Hukuki İşleme Tabi Tutulacaktır!" yazan bir tabela var.
+carKeys=Anahtar bataryası boş.
+#
+#ENDING
+hard=ZOR MODU
+credits=Bu oyun Ibrahim Oezhan ve Edgar Canelas tarafından yapılmıştır//Bize destek olmak isterseniz bizi takip edip oyunu arkadaşlarınızla paylaşmayı unutmayınız.//Ana Menüye dönmek için Esc tuşuna basınız.
+steve=Merhaba... Ben ... Steve. Sizinle özel olarak tanışmak istedim. Sanırım yasal işlemler bu evi yapmanıza engel olamadı. Bu yüzden ... yasadışı işlemler kullanmalıyız....
+#
+#HOUSE
+not=Bu birisinin çalacağı bir kapı değil.
+book=Bu kitabın adı: "Bir oyun takvimini kaçırmamanın yolları". Tam bir klasik!
+chair=Yeni bir koltuk.
+door=Şu anda dışarı çıkmam için hiçbir sebep yok.
+who=Bu saatte kim gelmiş olabilir?
+knife=Bıçağı aldım.
+bed=Kapıyı açmalıyım.
+laptop=Yeni bir dizüstü bilgisayar. Muhtemelen oyun geliştirmek için kullanacağım.
+whatDo=Bu evi inşa ettikten sonra çok yoruldum. Biraz uyumam lazım...
+#
+#Menu
+time=Süre: 
+timeHard=Süre (Zor): 
+new=Yeni Versiyonu Mevcut
+itch=Itch.io Sayfalarımız
+play=Oyna
+playNoDay=Oyna (Günü Geç)
+playHard=Oyna (Zor Mod)
+set=Ayarlar
+quit=Çıkış
+back=Geri
+qual=Kalite
+lang=Dil
+screen=Ekran
+screen0=Tam Ekran
+screen2=Kenarsız
+screen1=Pencere Modu
+qual0=Düşük
+qual1=Orta
+qual2=Yüksek

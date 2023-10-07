@@ -12,16 +12,16 @@ EditorBuildSettings:
     path: Assets/Scenes/Game.unity
     guid: 528db6ecbe392e740b074cde294a3ab6
   - enabled: 1
-    path: Assets/Scenes/Building.unity
+    path: Assets/Scenes/House_Building.unity
     guid: 03c73b9854c2ef4478a9b19c2dba74c7
   - enabled: 1
-    path: Assets/Scenes/House.unity
+    path: Assets/Scenes/House_Inside.unity
     guid: 150f9682d6b1dad429c87cb505ad017c
   - enabled: 1
-    path: Assets/Scenes/Endings/Ending_Outside.unity
+    path: Assets/Scenes/Ending_Outside.unity
     guid: 5a1f3ee3d546d8142ac611b706879b7d
   - enabled: 1
-    path: Assets/Scenes/Endings/Ending_Bed.unity
+    path: Assets/Scenes/Ending_Bed.unity
     guid: 3e9bf6e0e4ef33543ba7f0c95ba7c61c
   - enabled: 1
     path: Assets/Scenes/Credits.unity

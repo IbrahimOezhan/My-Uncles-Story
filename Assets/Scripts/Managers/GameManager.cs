@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Interactable dialogTooFar;
     [SerializeField] private GameObject popText;
 
-    public Light hand1, hand2;
     public GameObject toolsUI;
     public GameObject logOnHand;
     public GameObject noteOnCar;

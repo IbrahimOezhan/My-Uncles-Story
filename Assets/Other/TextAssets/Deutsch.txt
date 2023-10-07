@@ -28,7 +28,7 @@ optional=Optional: Kompass am Auto mithilfe des Werkzeugkastens reparieren.
 #
 #INPUT
 dismiss=E
-interact=E
+interact=E - Interagieren
 skip=E zum Überspringen.
 close=Drücke E, um die Notiz wegzulegen.
 hold=Halte gedrückt, um zum Hauptmenü zurückzukehren.

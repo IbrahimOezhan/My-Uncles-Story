@@ -1,3 +1,5 @@
+# Slahes (/) are used for line breaks. They can also be stacked (//)
+#
 #UNCLE
 carFirst=There should be a clearing in the forest north of the road I can use to build the house. The logs that i will use for that are in the trunk.
 tooFar=I forgot to get a log and the compass from the back of the car.
@@ -28,13 +30,13 @@ optional=Optional: Fix compass at car using toolbox.
 #
 #INPUT
 dismiss=E
-interact=E
+interact=E - Interact
 skip=E to Skip.
 close=E to close note.
 hold=Continue holding to return to main menu.
 #
 #OTHER
-sign=A sign reading: "PRIVATE PROPERTY! NO TRESPASSING! VIOLATORS WILL BE PROSECUTED!".
+sign=A sign reading: "Private Property! No Trespassing! Violators will be prosecuted!".
 carKeys=Car key battery empty.
 #
 #ENDING

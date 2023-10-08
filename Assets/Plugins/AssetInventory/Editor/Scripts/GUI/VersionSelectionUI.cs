@@ -57,7 +57,7 @@ namespace AssetInventory
 #if UNITY_2023_1_OR_NEWER
                 if (version == _packageInfo.versions.recommended)
 #else
-                if (version == _packageInfo.versions.verified)
+                if (version == _packageInfo.versions.recommended)
 #endif
                 {
                     GUI.backgroundColor = Color.green;

@@ -12,12 +12,9 @@ public class Ending_Credits : MonoBehaviour
     private IEnumerator Start()
     {
         PlayerPrefs.SetInt("beatGame", 1);
-        PlayerPrefs.SetInt("Ending" + MainManager.instance.whichEnding.ToString(), 1);
 
-        string end = "/4";
         if (MainManager.instance.hardMode) hardText.enabled = true;
-        for (int i = 1; i < 5; i++) if (PlayerPrefs.GetInt("Ending" + i.ToString()) == 0) end = "/X";
-        endingText.text = "Ending " + MainManager.instance.whichEnding.ToString() + end;
+        endingText.text = "Ending " + MainManager.instance.whichEnding.ToString() + "/4";
 
         yield return new WaitForSecondsRealtime(13);
 

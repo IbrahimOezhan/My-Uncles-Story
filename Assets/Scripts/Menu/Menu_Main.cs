@@ -59,7 +59,7 @@ public class Menu_Main : MonoBehaviour
     private void SetQuality()
     {
         QualitySettings.SetQualityLevel(PlayerPrefs.GetInt("qual"), true);
-        settings.qualityLevelName.GetComponent<Translater>().tagName = "qual" + PlayerPrefs.GetInt("qual");
+        settings.qualityLevelName.GetComponent<UI_Translater>().tagName = "qual" + PlayerPrefs.GetInt("qual");
         TranslationManager.instance.UpdateLanguage();
     }
 
@@ -94,7 +94,7 @@ public class Menu_Main : MonoBehaviour
 
     private void SetScreenMode()
     {
-        settings.screenstatetext.GetComponent<Translater>().tagName = "screen" + PlayerPrefs.GetInt("screen");
+        settings.screenstatetext.GetComponent<UI_Translater>().tagName = "screen" + PlayerPrefs.GetInt("screen");
         switch (PlayerPrefs.GetInt("screen"))
         {
             case 0:

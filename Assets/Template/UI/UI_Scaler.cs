@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Canvas_Scaler : MonoBehaviour
+public class UI_Scaler : MonoBehaviour
 {
     private Text text;
     private RectTransform rectTransform;

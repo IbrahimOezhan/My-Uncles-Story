@@ -57,9 +57,9 @@ public class Intro : MonoBehaviour
     {
         menuGroup.interactable = false;
         Destroy(menuGroup.GetComponent<A_Menu_Sounds>());
-        menuGroup.gameObject.AddComponent<Canvas_Fader>().speed = -0.02f;
+        menuGroup.gameObject.AddComponent<UI_Fader>().speed = -0.02f;
         yield return new WaitForSeconds(1);
-        blackscreen.gameObject.AddComponent<Canvas_Fader>().speed = 0.02f;
+        blackscreen.gameObject.AddComponent<UI_Fader>().speed = 0.02f;
         FMODUnity.RuntimeManager.StudioSystem.setParameterByName("SkipIntro", skipIntro);
 
         if (skipIntro == 0)

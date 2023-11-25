@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Canvas_Fader : MonoBehaviour
+public class UI_Fader : MonoBehaviour
 {
     private CanvasGroup group;
     public float speed;

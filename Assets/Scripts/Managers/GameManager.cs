@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
     public Transform manMaxPos;
     public Man manWalkAway;
     public Text objectiveText;
-    public Translater noteTrans;
+    public UI_Translater noteTrans;
     public Interactable carLog;
     public Interactable house;
     public Interactable carDoor;
@@ -166,7 +166,7 @@ public class GameManager : MonoBehaviour
 
     public void PopUpText(string _tag)
     {
-        Instantiate(popText).GetComponentInChildren<Translater>().tagName = _tag;
+        Instantiate(popText).GetComponentInChildren<UI_Translater>().tagName = _tag;
     }
 
     public bool PlayerInSafeZone()

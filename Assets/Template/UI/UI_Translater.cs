@@ -2,9 +2,15 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Translater : MonoBehaviour
+public class UI_Translater : MonoBehaviour
 {
+    private Text textToTranslate;
     public string tagName;
+
+    private void Awake()
+    {
+        textToTranslate = GetComponent<Text>();
+    }
 
     private void OnEnable()
     {
@@ -30,6 +36,6 @@ public class Translater : MonoBehaviour
 
     private void Translate()
     {
-        TranslationManager.instance.SetUIText(GetComponent<Text>(), tagName);
+        TranslationManager.instance.SetUIText(textToTranslate, tagName);
     }
 }

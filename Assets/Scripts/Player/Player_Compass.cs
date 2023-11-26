@@ -7,8 +7,10 @@ public class Player_Compass : MonoBehaviour
 {
     private FMOD.Studio.EventInstance compassTurnInstance;
     private FirstPersonController fps;
+    private CharacterController characterController;
     private GameManager gameManager;
 
+    private Animator anim;
     private float preRot;
     private float posRot;
     private float timer;
@@ -30,8 +32,10 @@ public class Player_Compass : MonoBehaviour
 
     private void Awake()
     {
+        anim = compassObject.GetComponent<Animator>();
         gameManager = FindObjectOfType<GameManager>();
         fps = GetComponent<FirstPersonController>();
+        characterController = GetComponent<CharacterController>();
         preRot = fps.gameObject.transform.rotation.y;
         if (MainManager.instance.hardMode) compassHealth = 50;
     }
@@ -42,6 +46,8 @@ public class Player_Compass : MonoBehaviour
 
         if (compassEnabled)
         {
+            if (characterController.velocity.magnitude > 0.1) anim.SetFloat("state", 1);
+            else anim.SetFloat("state", 0);
             posRot = fps.gameObject.transform.rotation.y;
 
             fps.MoveSpeed = 1.5f;

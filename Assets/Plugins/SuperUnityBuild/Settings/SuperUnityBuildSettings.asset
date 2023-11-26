@@ -157,8 +157,8 @@ MonoBehaviour:
     openFolderPostBuild: 1
   _productParameters:
     buildCounter: 0
-    buildVersion: 2.3.1
-    versionTemplate: 2.3.1
+    buildVersion: 2.4.2
+    versionTemplate: 2.4.2
     autoGenerate: 0
     syncWithPlayerSettings: 1
   _releaseTypeList:
@@ -224,7 +224,7 @@ MonoBehaviour:
       - enabled: 1
         childKeys:
         - Release/Linux/Linux x64/Mono
-      - enabled: 0
+      - enabled: 1
         childKeys:
         - Release/Linux/Linux x64
       - enabled: 1
@@ -232,7 +232,7 @@ MonoBehaviour:
       - enabled: 1
         childKeys:
         - Release/macOS/macOS (Universal,App)/Mono
-      - enabled: 0
+      - enabled: 1
         childKeys:
         - Release/macOS/macOS (Universal,App)
       - enabled: 1

@@ -7,7 +7,6 @@ public class Menu_Main : MonoBehaviour
     public Settings settings;
     public static Menu_Main menu;
     [SerializeField] private Text score;
-    [SerializeField] private Text scoreHard;
 
     private void Awake()
     {
@@ -27,10 +26,10 @@ public class Menu_Main : MonoBehaviour
         SetQuality();
         SetLevel();
         SetLanguage();
-        StartCoroutine(GetNewestVersion(settings.URL));
+        StartCoroutine(GetVersion());
 
-        if (PlayerPrefs.GetFloat("timeTotal") != 0) score.text = TranslationManager.instance.GetText("time") + ConvertTime(PlayerPrefs.GetFloat("timeTotal"));
-        if (PlayerPrefs.GetFloat("timeTotalHard") != 0) scoreHard.text = TranslationManager.instance.GetText("timeHard") + ConvertTime(PlayerPrefs.GetFloat("timeTotalHard"));
+        if (PlayerPrefs.GetFloat("timeTotalHard") != 0) score.text += TranslationManager.instance.GetText("timeHard") + ConvertTime(PlayerPrefs.GetFloat("timeTotalHard")) + "\n";
+        if (PlayerPrefs.GetFloat("timeTotal") != 0) score.text += TranslationManager.instance.GetText("time") + ConvertTime(PlayerPrefs.GetFloat("timeTotal"));
     }
     private string ConvertTime(float timeTotal)
     {
@@ -41,13 +40,51 @@ public class Menu_Main : MonoBehaviour
         return m.ToString() + ":" + sS;
     }
 
-    private IEnumerator GetNewestVersion(string url)
+    private IEnumerator GetVersion()
     {
-#pragma warning disable CS0618 // Type or member is obsolete
-        WWW www = new(url);
-#pragma warning restore CS0618 // Type or member is obsolete
-        yield return www;
-        settings.versionText.text = "Version " + Application.version + "" + (Application.version != www.text ? " " + TranslationManager.instance.GetText("new") : "");
+        settings.versionText.text = "Version " + Application.version;
+        using WWW _requestGet = new(settings.URL);
+        yield return _requestGet;
+
+        string _dots = ".";
+        float _timePassed = 0;
+        while (!_requestGet.isDone)
+        {
+            _timePassed += Time.deltaTime;
+            yield return new WaitForSeconds(.4f);
+            _dots = _dots.Length == 3 ? "." : _dots + ".";
+
+            if (_timePassed > 5)
+            {
+                _requestGet.Dispose();
+            }
+        }
+
+        string _latestVersion = _requestGet.text;
+        (bool _isOutdated, bool _error) = IsOutdated(Application.version.Split('.'), _latestVersion.Split('.'));
+
+        _requestGet.Dispose();
+        if (_isOutdated) OnOutdated();
+    }
+
+    public (bool, bool) IsOutdated(string[] _current, string[] _latest)
+    {
+        for (int i = 0; i < _latest.Length; i++)
+        {
+            if (int.TryParse(_latest[i], out var _latestVersion))
+            {
+                int _currentVersion = int.Parse(_current[i]);
+                if (_latestVersion < _currentVersion) break;
+                if (_latestVersion > _currentVersion) return (true, false);
+            }
+            else return (false, true);
+        }
+        return (false, false);
+    }
+
+    private void OnOutdated()
+    {
+        settings.versionText.text = "Version " + Application.version + "" + TranslationManager.instance.GetText("new");
     }
 
     public void SwitchQualityLevel()
